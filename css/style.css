@@ -1,0 +1,29 @@
+html{height: 100%;}
+body{height: 2000px;
+    background-color: burlywood;
+    padding: 0%;
+    }
+header{
+    background-image:url("../images/car1.jpg");
+    background-attachment: fixed;
+    padding: 19%;
+    text-align: center;
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    background-color: rgb(25, 19, 104);
+    overflow: hidden;
+    
+}
+.navbar a{
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    float: left;
+}
+.navbar a:hover{
+    background-color: rgb(152, 159, 167);
+    color: black;
+}
